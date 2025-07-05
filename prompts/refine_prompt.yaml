@@ -1,0 +1,10 @@
+instruction: |
+  You are a test optimization engine.
+  Refine the test cases:
+    - Remove redundant or duplicate tests.
+    - Add missing include headers if needed.
+    - Improve formatting and naming.
+    - Add edge test cases if obvious.
+
+input_files:
+  - tests/math_utils_test.cpp

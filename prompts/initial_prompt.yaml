@@ -1,0 +1,15 @@
+instruction: |
+  You are a unit test generation engine for C++ using Google Test.
+  Given the input source and header files, generate initial unit tests.
+  Ensure:
+    - Use Google Test framework.
+    - Write a test case for each public function.
+    - Ensure proper includes.
+    - Avoid duplicate test cases.
+    - Place tests in "tests/" folder.
+
+input_files:
+  - src/math_utils.cpp
+  - include/math_utils.h
+
+output_dir: tests/
